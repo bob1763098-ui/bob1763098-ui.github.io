@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bob's Personal Website">
+    <meta name="keywords" content="personal website, portfolio">
+    <meta name="author" content="Bob">
+    <title>Bob's Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        
+        .container {
+            text-align: center;
+            background: white;
+            padding: 3rem;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+        
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: #666;
+        }
+        
+        .links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .links a {
+            text-decoration: none;
+            padding: 0.8rem 1.5rem;
+            background: #667eea;
+            color: white;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        
+        .links a:hover {
+            background: #764ba2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome!</h1>
+        <p>This is Bob's personal website hosted on GitHub Pages.</p>
+        <div class="links">
+            <a href="https://github.com/bob1763098-ui" target="_blank">GitHub Profile</a>
+            <a href="mailto:contact@example.com">Contact</a>
+        </div>
+    </div>
+</body>
+</html>
